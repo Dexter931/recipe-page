@@ -1,0 +1,82 @@
+@font-face {
+    font-family: font1;
+    src: url(YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    background:  hsl(30, 18%, 87%);
+}
+
+.home{
+    background: hsl(0, 0%, 100%);
+    width: 600px;
+    margin-left: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: font2;
+}
+
+.home>img{
+    width: 550px;
+    align-self: center;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+h4{
+    font-family: font1;
+    color: hsl(332, 51%, 32%);
+}
+
+.home>table{
+    border: 1px solid black
+}
+
+h3{
+    font-family: font1;
+    color: hsl(332, 51%, 32%);
+}
+.home>td{
+    border: solid black;
+    width: 400px;
+    font-family: font1;
+    text-decoration-color: hsl(332, 51%, 32%);
+}
+
+.area{
+    background-color: hsl(30, 54%, 90%);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+ol li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.home>p{
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.home>p>b{
+   color: hsl(332, 51%, 32%); 
+}
+
+#i{
+    gap: 50%;
+}
+
+#ii{
+    gap: 52%;
+}
+
+#iii{
+    gap: 51%;
+}
+
+#iv{
+    gap: 55%;
+}
